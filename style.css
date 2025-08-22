@@ -1,0 +1,115 @@
+* {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+   
+}
+
+body{
+    background-color: #e9ccff;
+}
+
+body header {
+    background: url("https://cdn.mos.cms.futurecdn.net/aHxSAvXLKugh2ShrFAKF5H.jpg.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+body header p {
+    font-size: 1.2rem;
+}
+
+main {
+    max-width: 300;
+}
+
+section {
+text-align: center;
+color: #000000;
+margin-top: 4rem;
+margin-bottom: 3rem;
+font-family: sans-serif;
+}
+
+
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #000000;
+  padding-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    padding: 1rem;
+    padding: 1rem;
+}
+
+li {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+#meet-our-dogs img {
+    display: block;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: grayscale(1);
+    margin: 1rem auto;
+    max-width: 50%;
+
+}
+
+form {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin: 1rem;
+}
+
+
+form button {
+    background-color: #7204c7;
+    padding: 2%;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px
+}
+
+
+
+footer {
+    text-align: center;
+    font-size: ;
+}
+
+
+
+ 
+/* Small devices (portrait tablets and large phones, 600px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* CSS rules for small screens */
+}
+ 
+/* Medium devices (landscape tablets, 768px to 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  /* CSS rules for medium screens */
+}
+ 
+/* Large devices (laptops/desktops, 992px to 1200px) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  /* CSS rules for large screens */
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1201px) {
+  /* CSS rules for extra large screens */
+}
